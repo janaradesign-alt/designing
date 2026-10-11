@@ -1,0 +1,24 @@
+{
+  "name": "Hindsight",
+  "short_name": "Hindsight",
+  "description": "Find women who have been where you are. Read what they feared, what happened, and what they know now.",
+  "id": "/",
+  "start_url": "/#/discover",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F1F4F3",
+  "theme_color": "#F1F4F3",
+  "categories": ["education", "lifestyle", "social"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Discover", "url": "/#/discover" },
+    { "name": "Inbox", "url": "/#/inbox" },
+    { "name": "Share a story", "url": "/#/share/new" }
+  ]
+}

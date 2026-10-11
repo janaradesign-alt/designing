@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Hindsight</title>
+  <meta name="description" content="Find women who have been where you are. Read what they feared, what happened, and what they know now.">
+  <meta name="theme-color" content="#F1F4F3">
+  <meta name="color-scheme" content="light dark">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icons/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="/icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Hindsight">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="preload" href="/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div id="boot" style="min-height:100dvh;display:grid;place-items:center;color:var(--ink-2)" role="status">Loading Hindsight…</div>
+  <div class="shell" id="shell" hidden>
+    <div class="offline" id="offline" role="status" hidden>You’re offline. Reconnect to load stories and send questions.</div>
+    <header class="appbar" id="appbar"></header>
+    <main id="view" tabindex="-1"></main>
+    <nav class="tabbar" id="tabs" aria-label="Main"></nav>
+    <div id="toast" role="status" aria-live="polite" hidden></div>
+  </div>
+  <noscript><p style="padding:24px;font-family:sans-serif">Hindsight needs JavaScript to run.</p></noscript>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
