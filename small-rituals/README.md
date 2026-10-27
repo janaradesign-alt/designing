@@ -6,10 +6,11 @@ Your data is stored on the device in the browser (localStorage). Nothing is sent
 
 ## Put it online (GitHub Pages)
 
-1. Create a new repository on GitHub and upload all the files in this folder (keep the `icons` folder).
-2. In the repository, open **Settings > Pages**.
-3. Under **Build and deployment**, set Source to **Deploy from a branch**, choose `main` and `/ (root)`, then Save.
-4. After a minute your app is live at `https://YOUR-USERNAME.github.io/YOUR-REPO/`.
+This folder lives inside the `designing` repository.
+
+1. On GitHub, open the repository's **Settings > Pages**.
+2. Under **Build and deployment**, set Source to **Deploy from a branch**, choose `main` and `/ (root)`, then Save.
+3. After a minute the app is live at `https://janaradesign-alt.github.io/designing/small-rituals/`.
 
 ## Install on your phone
 
